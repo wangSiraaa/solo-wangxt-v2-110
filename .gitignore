@@ -23,3 +23,15 @@ venv/
 __pycache__/
 .pytest_cache/
 .DS_Store
+
+# Local PostgreSQL binaries/data
+/tools/pg-debs/
+/tools/pg-client/
+/tools/pgdata/
+/tools/pg.log
+
+# Frontend build
+/web/dist/
+
+# Runtime
+*.log
